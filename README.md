@@ -21,6 +21,7 @@ This is an example to show how to use "laserscan_multi_merger" to merge lasersca
     $ catkin_make
 
 # Run
+    $ sudo chmod 666 /dev/ttyUSB[01]
     $ roslaunch dual_lasers_test rplidar1.launch  // on terminal 1
     $ roslaunch dual_lasers_test rplidar2.launch  // on terminal 2
     $ roslaunch dual_lasers_test add_static_tf.launch  // on terminal 3
