@@ -9,8 +9,11 @@ This is an example to show how to use "laserscan_multi_merger" to merge lasersca
     $ cd ~catkin_ws/src
     $ git clone  https://github.com/iralabdisco/ira_laser_tools
     // modify laserscan_multi_merger.launch
+    // modify ira_laser_tools/cfg/laserscan_multi_merger.cfg
     $ cd ..
     $ catkin_make
+    // Note that if you modify laserscan_multi_merger.cfg, you need to make it again
+    
 ## Install this repo
     $ cd ~catkin_ws/src
     $ git clone https://github.com/wennycooper/dual_lasers_test.git
