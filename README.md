@@ -1,6 +1,9 @@
 # dual_lasers_test
 This is an example to show how to use "laserscan_multi_merger" to merge laserscan topics into a single virtual laserscan topic.
 
+![](https://github.com/wennycooper/dual_lasers_test/blob/master/virtual_laserscan.png)
+
+
 # Prepare
 ## Install ira_laser_tools
     $ cd ~catkin_ws/src
