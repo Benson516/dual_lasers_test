@@ -1,0 +1,4 @@
+<launch>
+<node pkg="tf" type="static_transform_publisher" name="br1" args="-0.24 0 0 0 0 0 virtual_laser laser1 100" />
+<node pkg="tf" type="static_transform_publisher" name="br2" args="0.24 0 0 3.14 0 0 virtual_laser laser2 100" />
+</launch>
